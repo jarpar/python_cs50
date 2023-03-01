@@ -13,10 +13,10 @@ def main():
 def get_tweet(sentence_in):
     vowels = ["a", "e", "i", "o", "u"]
     for s in sentence_in:
-        s_casefolded = str(s).lower()
+        s_lowercased = str(s).lower()
         is_vowel = False
         for v in vowels:
-            if s_casefolded == v:
+            if s_lowercased == v:
                 is_vowel = True
         if is_vowel == False:
             print(f"{s}", end="")
