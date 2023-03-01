@@ -9,7 +9,8 @@ def main():
 def print_square(height, width):
     for h in range(height):
         for w in range(width):
-            print("#",end="")
+            print("#", end="")
         print("")
+
 
 main()

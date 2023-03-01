@@ -15,7 +15,6 @@ for i in range(len(students)):
 print("---")
 
 for i in range(len(students)):
-    print(i+1,":", students[i])
+    print(i + 1, ":", students[i])
 
 print("----")
-
