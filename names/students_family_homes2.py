@@ -1,4 +1,5 @@
 import csv
+
 # remember add to csv file dictionary keys (ex: name, home)
 
 students = []
