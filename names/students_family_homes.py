@@ -1,8 +1,9 @@
 import csv
+
 students = []
 
 with open("students_family_homes.csv") as file:
-    reader = csv.reader(file, delimiter=',', quotechar='"')
+    reader = csv.reader(file, delimiter=",", quotechar='"')
     for name, home in reader:
         students.append({"name": name, "home": home})
 
