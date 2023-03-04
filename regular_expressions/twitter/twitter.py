@@ -1,7 +1,10 @@
 import re
 url = input("URL: ").strip()
 
-# username = url.replac("https://twitter.com/", "")
-username = re.sub(r"^http?s://twitter\.com/", "", url)
+# username = url.replace("http?s://\.twitter.com/", "")
+# username = re.sub(r"^(https?://)?(www\.)?twitter\.com/?", "", url)
 
-print(f"Username: {username}")
+# test input:
+# https://twitter.com/user.name
+if matches := re.search(r"^https?://(?:www\.)?twitter\.com/(.+)$", url, re.IGNORECASE):
+    print(f"Username: ", matches.group(1))
