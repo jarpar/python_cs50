@@ -14,4 +14,3 @@ for student in students:
 
 for house in sorted(houses):
     print(house)
-
