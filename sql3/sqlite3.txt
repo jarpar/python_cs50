@@ -1,0 +1,15 @@
+SELECT * FROM "longlist";
+SELECT "title" FROM "longlist";
+SELECT "title", "author" FROM "longlist";
+SELECT "title" FROM "longlist" LIMIT 5;
+SELECT "title", "author" FROM "longlist" WHERE "year" = 2021;
+
+= equal
+!= not equal
+<> smaller, bigger than
+SELECT "title", "format" FROM "longlist" WHERE "format" != 'hardcover';
+
+AND
+OR
+()
+SELECT "title", "author" FROM "longlist" WHERE "year" = 2022 OR "year" = 2023
