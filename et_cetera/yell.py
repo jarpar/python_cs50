@@ -1,5 +1,6 @@
 def main():
-    yell(["This", "is",  "cs50"])
+    yell(["This", "is", "cs50"])
+
 
 def yell(words):
     uppercased = map(str.upper, words)
@@ -8,4 +9,3 @@ def yell(words):
 
 if __name__ == "__main__":
     main()
-

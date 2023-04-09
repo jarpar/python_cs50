@@ -1,4 +1,4 @@
-#python usage_of_argparse.py -n 3
+# python usage_of_argparse.py -n 3
 
 import argparse
 
@@ -8,4 +8,3 @@ args = parser.parse_args()
 
 for _ in range(args.n):
     print("meow")
-
