@@ -1,12 +1,4 @@
-def meow(n: int) -> str:
-    """ "
-    comment
-    param n: bla bla bla
+MEOWS = 3
 
-    """
-    return "meow\n" * n
-
-
-number: int = int(input("Number: "))
-meows: str = meow(number)
-print(meows)
+for i in range(MEOWS):
+    print("meow")
